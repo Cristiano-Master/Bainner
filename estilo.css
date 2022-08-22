@@ -1,0 +1,60 @@
+.banner{
+	width: 650px;
+	height: 350px;
+	border: 5px solid transparent;
+	margin: auto;
+	background-size: 100% 100%; 
+	animation: banner 60s infinite;
+	animation-direction: alternate;
+}
+
+@keyframes banner{
+	0%, 10%{
+			background-image: url(img/IMG_1494.jpg);
+			opacity: 1;
+	}
+	11%, 14%{
+		opacity: 0.1;
+	}
+
+	15%, 25%{
+			background-image: url(img/IMG_1483.jpg);
+			opacity: 1;
+	}
+	26%, 34%{
+		opacity: 0.1;
+	}
+
+
+	35%, 45%{
+			background-image: url(img/IMG_1467.jpg);
+			opacity: 1;
+	}
+	46%, 54%{
+		opacity: 0.1;
+	}
+
+
+	55%, 65%{
+			background-image: url(img/IMG_0934.jpg);
+			opacity: 1;
+	}
+	66%, 74%{
+		opacity: 0.1;
+	}
+
+
+	75%, 85%{
+			background-image: url(img/IMG_0701.jpg);
+			opacity: 1;
+	}
+	86%, 89%{
+		opacity: 0.1;
+	}
+
+
+	90%, 100%{
+			background-image: url(img/IMG_1464.jpg);
+			opacity: 1;
+	}
+}
